@@ -1,0 +1,9 @@
+body {
+	font-family: Calibri;
+}
+canvas {
+	border: black solid 1px;
+}
+li {
+	list-style-type: none;
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image Maker</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+	<script src="image_data/img1.js"></script>
+	<script src="imagemaker.js"></script>
+</head>
+<body>
+<h1>Image Maker</h1>
+<canvas id="pixels" width="500" height="500"></canvas>
+<br>
+<p>Cols: <input type="number" id="width" value="5"> Rows: <input type="number" id="height" value="5"><button id="apply">Apply size</button></p>
+<input type="color" id="color" value="#000000">
+<p>Recent colors: <ul id="recent"></ul></p>
+<br><button id="ok">OK</button>
+<div id="output"></div>
+</body>
+</html>
